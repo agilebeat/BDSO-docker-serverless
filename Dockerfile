@@ -39,7 +39,8 @@ RUN curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -; apt-get ins
 RUN pip --no-cache-dir install \
 	 jupyter \
  	 ipykernel \
-	 numpy==1.14.5 \
+	 numpy\
+     request \
      vaderSentiment \
         && \
     python -m ipykernel.kernelspec
