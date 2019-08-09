@@ -11,7 +11,7 @@ First build docker image using the Dockerfile. To build it you have to:
 2. Get in to the project directory using `cd` command
 3. Run 
 
-`docker build . -t BDSO-docker-serverless`
+`docker build . -t bdso-docker-serverless`
 
 ### Running docker
 
@@ -36,17 +36,17 @@ Where:
    
    You should see line such as 
    
-   ```BDSO-docker-serverless latest 0f5875eda9b2 6 days ago 2.55GB```
+   ```bdso-docker-serverless latest 0f5875eda9b2 6 days ago 2.55GB```
    
-   - BDSO-docker-serverless - is a tag name
+   - bdso-docker-serverless - is a tag name
    - latest - is version name
    - 0f5875eda9b2 - is the image id (this may be different on each client)
    
-If you don't have `BDSO-docker-serverless` image build it.
+If you don't have `bdso-docker-serverless` image build it.
 To build the image just check out this project, get in to directory and run
 follwoing command: 
 
-```docker build . -t BDSO-docker-serverless```  
+```docker build . -t bdso-docker-serverless```  
    
 ### Getting shell for running container
 
