@@ -67,7 +67,7 @@ RUN echo "c.InteractiveShellApp.exec_lines = ['%matplotlib inline']" >>${CONFIG_
 EXPOSE 8888
 EXPOSE 6006 
 
-VOLUME /notebooks
+VOLUME /root/bdso
 
 # Run Jupyter Notebook
 WORKDIR "/root/bdso"
