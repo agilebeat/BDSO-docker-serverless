@@ -12,7 +12,8 @@ RUN apt-get update && apt-get install -y \
     swig \
     libmecab-dev \
 	gfortran \
-    libav-tools \
+ #   libav-tools \
+    ffmpeg \
     python3-setuptools \
     sudo \
     curl \
@@ -68,5 +69,5 @@ EXPOSE 6006
 VOLUME /notebooks
 
 # Run Jupyter Notebook
-WORKDIR "/notebooks"
+WORKDIR "/root/bdso"
 CMD ["jupyter","notebook", "--allow-root"]
