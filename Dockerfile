@@ -40,7 +40,7 @@ RUN pip --no-cache-dir install \
 	 jupyter \
  	 ipykernel \
 	 numpy\
-     request \
+     requests \
      vaderSentiment \
         && \
     python -m ipykernel.kernelspec
